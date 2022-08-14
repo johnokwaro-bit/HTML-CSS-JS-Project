@@ -3,5 +3,14 @@ body {
     font-family: 'Times New Roman', Times, serif;
     font-size: 12px;
     display: block;
+    width: 500;
+    height: auto;
+    
   }
+
+.class{
+    width: 500px;
+    display: block;
+    
+}
 
