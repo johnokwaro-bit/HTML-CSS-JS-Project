@@ -1,3 +1,7 @@
 body {
-    background: blue;
+    font-style: normal;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 12px;
+    display: block;
   }
+
