@@ -1,4 +1,11 @@
-const h2 = document.createElement("h2");
-h2.textContent = "";
+const extent = document.getElementsByClassName("extent")
+const address ={}
+extent.innerHTML = "address = {name:Okanda Research Cretre;}" 
 
-document.querySelector("body").appendChild(h2);
+
+
+
+
+document.append(address)
+
+

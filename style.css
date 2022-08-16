@@ -1,27 +1,23 @@
-body {
+body{
     font-style: normal;
     font-family: 'Times New Roman', Times, serif;
     font-size: 12px;
     display: block;   
-    text-align: justify;
-    
-    
+    text-align: justify;    
 }
 
 #list{
     width: 500px;
-    display: block;
-   
-    
-}
+    display: block;    
+} 
 
-div.class{
+div.menu{
     font-size: 18px;
     background-color: rgb(0, 238, 255);        
     display: block;
     width: 100%;
     margin: 5px 0px;
-    padding: 10px;
+    padding: 5px;
     font-style: italic;
     text-align: justify;
     
@@ -55,7 +51,7 @@ div{
 }
 
 table{        
-    border-width: 2px;
+    border-width: 1px;
     border-color: black;
     border-style: solid;
     border-collapse: collapse;
@@ -67,3 +63,35 @@ th,td{
     border-style: solid;    
 }
 
+
+a:hover, a:active{
+    background-color: red;
+}
+
+.icon-bar {
+    width: 100%; /* Full-width */    
+    overflow: auto; /* Overflow due to float */
+  }
+  
+  .icon-bar li{
+    float: left; /* Float links side by side */
+    text-align: center; /* Center-align text */
+    width: 20%; /* Equal width (5 icons with 20% width each = 100%) */
+    padding: 12px 0; /* Some top and bottom padding */    
+    color: black; /* White text color */    
+    list-style: none;
+    cursor: pointer;
+  }
+
+  .icon-bar li:hover, .icon-bar li:active{
+    background-color: greenyellow;
+}
+
+div.extent{
+    text-align: right;
+    height: 800px;
+    width: 500px;
+    background: rgb(225, 255, 205);
+    display: block;
+    float: right;
+}
