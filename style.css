@@ -88,10 +88,11 @@ a:hover, a:active{
 }
 
 div.extent{
-    text-align: right;
+    text-align: center;
     height: 800px;
     width: 500px;
     background: rgb(225, 255, 205);
     display: block;
     float: right;
+    font-size: 20px;
 }
